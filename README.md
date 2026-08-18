@@ -1,4 +1,4 @@
-ask 1: Grade Checker
+Task 1: Grade Checker
 You enter your marks.
 
 The program checks your marks and gives you a grade (A, B, C, D, or F).
