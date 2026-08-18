@@ -1,0 +1,93 @@
+Task 1: Grade Checker
+Purpose: To calculate a grade based on marks entered by the user.
+
+How it works:
+
+The program asks the user to type their marks.
+
+It uses if/elif/else conditions to check the range of marks.
+
+Depending on the marks, it assigns a grade:
+
+A → Marks ≥ 90
+
+B → Marks ≥ 80
+
+C → Marks ≥ 70
+
+D → Marks ≥ 60
+
+F → Marks < 60
+
+Output: Displays the grade on the screen.
+
+Example:  
+Input → 85  
+Output → Your grade is: B
+
+Task 2: Student Grades
+Purpose: To manage student grades using a dictionary.
+
+How it works:
+
+A dictionary stores student names as keys and grades as values.
+
+You can perform three main operations:
+
+Add Student: Insert a new student and grade into the dictionary.
+
+Update Grade: Change the grade of an existing student.
+
+Print All Grades: Show all students with their grades.
+
+Output: Shows updated dictionary or list of all grades.
+
+Example:  
+Input → Update Alice’s grade to A
+Output → {'John': 'Grade A', 'Alice': 'Grade A', 'Bob': 'Grade C', 'Emma': 'Grade D'}
+
+Task 3: Write to a File
+Purpose: To save student grades into a text file.
+
+How it works:
+
+Opens a file named students.txt in write mode.
+
+Writes student names and grades line by line.
+
+Closes the file after writing.
+
+Output: Shows a confirmation message.
+
+Example:  
+"Content written to the file successfully."
+
+File Content Example:
+
+Code
+John - Grade A
+Alice - Grade B
+Bob - Grade C
+Emma - Grade D
+Task 4: Read from a File
+Purpose: To read and display student grades stored in the file.
+
+How it works:
+
+Opens students.txt in read mode.
+
+Reads all the content inside the file.
+
+Prints the student names and grades on the screen.
+
+Closes the file after reading.
+
+Output: Displays the file content in the terminal.
+
+Example:
+
+Code
+John - Grade A
+Alice - Grade B
+Bob - Grade C
+Emma - Grade D
