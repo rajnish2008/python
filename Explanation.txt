@@ -1,5 +1,21 @@
 Github Link:https://github.com/rajnish2008/python
 
+
+## Calculator
+
+Simple Explanation
+Functions are created for each calculation:
+add() → adds two numbers
+subtract() → subtracts two numbers
+multiply() → multiplies two numbers
+divide() → divides two numbers
+while True keeps the calculator running and shows the menu again and again.
+input() takes the user's choice and numbers.
+if-elif checks which operation the user selected.
+if b == 0 checks if the user is trying to divide by zero.
+try-except handles invalid input, such as entering letters instead of numbers.
+break stops the program when the user selects 5 (Exit).
+
 Task 1: Grade Checker
 Purpose: To calculate a grade based on marks entered by the user.
 
